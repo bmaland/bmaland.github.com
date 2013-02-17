@@ -1,0 +1,219 @@
+/*
+Theme Name: Stacey
+Theme URI: http://github.com/veganstraightedge/stacey
+Author: Shane Becker
+Author URI: http://iamshane.com
+Description: An HTML5, Microformatty, CSS3ish one column, no comments visually minimal theme
+Version: 0.4
+Tags: custom-menu, sticky-post, microformats, rtl-language-support, translation-ready, html5, css3, one-column, toolbox
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*@import url("private.css");*/
+
+
+/* =html5 reset
+-------------------------------------------------------------- */
+
+/*
+html5doctor.com reset stylesheet
+v1.4.1
+2010-03-01
+author: richard clark - http: //richclarkdesign.com
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+ul, ol, dl, p {
+  margin-bottom: 1em;
+}
+
+li {
+  margin-left: 2em;
+  margin-bottom: .5em;
+}
+
+body {
+  line-height: 1;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary {
+  display: block;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+a:visited {
+  color: #00243e;
+}
+
+a:active {
+  color: #ff7200;
+}
+
+header hgroup,
+.menu,
+#content,
+#secondary .xoxo,
+#colophon {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#page {
+  display: block;
+  clear: both;
+}
+
+.alignleft {
+  display: inline;
+  float: left;
+}
+.alignright {
+  display: inline;
+  float: right;
+}
+.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* macro */
+
+body {
+  background: #eee;
+  font-family: helvetica, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* site header */
+header {
+  background: black;
+  background: black -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0, #56585b), color-stop(.5, #262728), color-stop(1, black));
+  background: black -moz-linear-gradient(top, #56585b, #262728 50%, black);
+  display: block;
+  padding: 0.75em 0 0.75em 0;
+  margin: 0;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: .1em
+}
+
+header a:hover {
+  color: #eee;
+}
+
+header a:active {
+  color: #ccc;
+}
+
+header a:visited {
+  color: white;
+}
+
+/* post */
+article {
+  padding: 2em;
+  background: white;
+  margin-bottom: 3em;
+  max-width: 700px;
+  font-family: georgia, serif;
+  font-size: 125%;
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0, .5);
+  -moz-box-shadow:    0 0 5px rgba(0,0,0, .5);
+  -box-shadow:        0 0 5px rgba(0,0,0, .5);
+}
+
+article.hentry h1,
+article.hentry h2,
+article.hentry h3,
+article.hentry h4,
+article.hentry h5,
+article.hentry h6 {
+  font-family: Times New Roman, Helvetica, Arial, sans-serif;
+  line-height: 1em;
+  margin-bottom: .25em;
+}
+
+/* post header */
+article header {
+  margin-bottom: 2em;
+}
+
+article header h1 {
+  padding: 0;
+  font-size: 4em;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* For code tags outside of gists */
+code {
+  color: #666;
+  font-size: 0.75em;
+}
+
+body .gist .gist-file .gist-data pre,
+code {
+  font-size: .8em;
+  font-family: InconsolataMedium, 'Bitstream Vera Sans Mono', Courier, monospace;
+  line-height: 1.1em;
+}
+
+blockquote {
+  margin: 1.5em;
+  color: #666;
+  font-style: italic;
+  font-size: 90%;
+}
+
+/* post footer */
+article footer {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 1px solid #eee;
+}
+
